@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import Timer from "./timer";
-import bell_tannn from "./../../asset/bell_tannn.mpeg";
+import bell_tannn from "./../asset/bell_tannn.mpeg";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function NavBar({ setCurrentIndex, currentIndex }) {
   let ringBell = () => {

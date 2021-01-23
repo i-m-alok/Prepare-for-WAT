@@ -1,6 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import Data from "./../../asset/data";
+import Data from "../asset/data";
 
 export default function ButtonComponent() {
   const history = useHistory();
