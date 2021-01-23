@@ -20,7 +20,7 @@ const PracticeSet = (props) => {
   }, [props.currentIndex]);
   return (
     <div className="word-container">
-      {console.log(props.currentIndex)}
+      {/* {console.log(props.currentIndex)} */}
       <h1 className="word">{words[index]}</h1>
     </div>
   );

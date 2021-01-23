@@ -2,11 +2,11 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import Timer from "./timer";
 import bell_tannn from "./../asset/bell_tannn.mpeg";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Route } from "react-router-dom";
 function NavBar({ setCurrentIndex, currentIndex }) {
   let ringBell = () => {
     let snd = new Audio(bell_tannn);
-    console.log(snd);
+    // console.log(snd);
     snd.play();
   };
   return (
